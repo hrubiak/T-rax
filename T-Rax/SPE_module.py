@@ -182,7 +182,7 @@ class SPE_File(object):
         """Reads the detector information from the dom object"""
         self._camera = self.dom.getElementsByTagName('Camera')
         if len(self._camera) >= 1:
-            self.detector = self._camera[0].getAttribute('model')
+            self.detector = self._camera[0].getAttribute('Model')
         else:
             self.detector = 'unspecified'
 

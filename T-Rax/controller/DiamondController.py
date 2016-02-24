@@ -7,7 +7,7 @@ import numpy as np
 from controller.ModuleController import TRaxModuleController
 
 from controller.ROISelectorDiamondController import TRaxROIControllerDiamond
-from model.DiamondData import DiamondData
+from Model.DiamondData import DiamondData
 
 
 class TRaxDiamondController(TRaxModuleController):

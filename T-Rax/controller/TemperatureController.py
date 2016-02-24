@@ -8,7 +8,7 @@ from epics import caput, PV
 
 from controller.ModuleController import TRaxModuleController
 from controller.ROISelectorTemperatureController import TRaxROITemperatureController
-from model.TemperatureData import TemperatureData, TemperatureSettings
+from Model.TemperatureData import TemperatureData, TemperatureSettings
 
 
 class TRaxTemperatureController(TRaxModuleController):

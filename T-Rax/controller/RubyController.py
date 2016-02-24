@@ -6,7 +6,7 @@ import numpy as np
 from controller.ModuleController import TRaxModuleController
 
 from controller.ROISelectorRubyController import TRaxROIControllerRuby
-from model.RubyData import RubyData
+from Model.RubyData import RubyData
 
 
 class TRaxRubyController(TRaxModuleController):
